@@ -1,0 +1,27 @@
+// Test Game Data
+
+@include "base.fgd"
+@include "other.fgd"
+
+@PointClass base(Origin) color(127 127 127) size(-4, -4, -4, 4, 4, 4) = point_class : "Point Class"
+[
+	choices_property(choices) : "Choices Property" : "2.567" =
+	[
+		1.234 : "foo"
+		2.567 : "bar"
+		3.891 : "baz"
+	]
+	flags_property(flags) =
+	[
+		1 : "foo" : 1
+		2 : "bar" : 1
+		4 : "baz" : 0
+	]
+]
+
+@SolidClass base(Origin) color(127 127 127) size(-4, -4, -4, 4, 4, 4) = solid_class : "Solid Class"
+[
+	integer_property(integer) : "Integer Property" : 1234 : "This is an integer property"
+	float_property(float) : "Float Property" : 6.282 : "This is a float property"
+]
+
