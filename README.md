@@ -1,6 +1,6 @@
 # Quarchitect
 
-## Engine-agnostic map parsing and building library for Rust.
+## Engine-agnostic Quake map processing in Rust
 
 Quarchitect is the underlying core of Qodot Next, and handles:
 
